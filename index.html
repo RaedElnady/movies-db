@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Template</title>
+        <meta name="description" content="">
+        <meta name="author" content="Raed Elnady - Route Academy">
+        
+    </head>
+
+    <body>
+
+      <nav id="sidebarMenu" class="position-fixed d-flex min-vh-100">
+        <div class="nav-menu h-auto pt-2 position-relative">
+          <ul class="list-group">
+            <li class="item1 ps-4 my-3 moveingDown" ><a href="#">Now playing</a></li>
+            <li class="item2 ps-4 my-3 moveingDown" ><a href="#">Popular</a></li>
+            <li class="item3 ps-4 my-3 moveingDown" ><a href="#">Top Rated</a></li>
+            <li class="item4 ps-4 my-3 moveingDown" ><a href="#">Trending</a></li>
+            <li class="item5 ps-4 my-3 moveingDown" ><a href="#">Upcoming</a></li>
+            <li class="item6 ps-4 my-3 moveingDown" ><a href="#contact">Contact Us</a></li>
+      
+        
+          </ul>
+
+          <div class="nav-social-item">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-globe"></i></a>
+            <div class="pt-3">
+              <span>Copyright Â© 2019 All Rights Reserved.</span>
+            </div>
+            
+          </div>
+
+        </div>
+
+
+        <div class="nav-header h-auto position-relative">
+
+          <div class="nav-header-logo p-3">
+            <img src="images/logo.png">
+          </div>
+
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <i id="toggleIcon" class="fa fa-align-justify fs-3"></i>
+          </div>
+
+          <div class="nav-header-icon position-absolute bottom-0 start-50 translate-middle">
+            <div class="strip-lang">
+              <span>
+                <i class="fas fa-globe p-2"></i>
+              </span>
+            </div>
+            
+            <div class="strip-share p-2">
+              <span>
+                <i class="fas fa-share-alt"></i>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+
+      <section id="movies-container" class="min-vh-100">
+      
+        <div class="container text-center p-3">
+          <div class="d-flex justify-content-center">
+            <input id="searchName" class="form-control me-2 w-50 text-center" type="search" placeholder="Search by name in all movies" aria-label="Search">
+            <input id="searchWord" class="form-control me-2 w-50 text-center" type="search" placeholder="Search by name in current page" aria-label="Search">
+
+          </div>
+        </div>
+
+        <div class="container p-3">
+          <div id="moviesList" class="row">
+            
+
+              
+
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" id="name" placeholder="Enter Your Name">
+            <div class="alert alert-danger" id="namealert">
+              Your Name is not valid
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="form-group mb-4">
+            <input class="form-control" id="email" placeholder="Enter Email">
+            <div class="alert alert-danger" id="emailalert">
+            entre valid email
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="form-group mb-4">
+            <input class="form-control" id="phone" placeholder="Enter phone">
+            <div class="alert alert-danger" id="phonealert">
+            entre valid phone
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="form-group mb-4 ">
+            <input class="form-control" id="age" placeholder="Enter Age">
+            <div class="alert alert-danger" id="agealert">
+            entre valid Age
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="form-group mb-4">
+            <input class="form-control" type="password" id="password" placeholder="Enter Password">
+            <div class="alert alert-danger" id="passwordalert">
+            entre valid password *Minimum eight characters, at least one letter and one number:*
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6 mb-4">
+          <div class="form-group">
+            <input class="form-control" type="password" id="rePassword" placeholder="Enter RePassword">
+            <div class="alert alert-danger" id="repasswordalert">
+            entre valid Repassword
+            </div>
+          </div>
+          </div>
+        
+        
+          </div>
+
+          <button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+        </div>
+
+      </section>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+</html>
+
